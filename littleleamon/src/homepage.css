@@ -7,6 +7,11 @@ body, html {
   background-color: #fff;
 }
 
+.homepage-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
 /* Header */
 .header {
   display: flex;
@@ -82,7 +87,6 @@ body, html {
   object-fit: contain; 
 }
 
-
 /* Specials Section */
 .specials-section {
   padding: 5% 5%;
@@ -129,35 +133,6 @@ body, html {
   padding: 0 1rem 1rem 1rem;
   font-size: 0.95rem;
 }
-
-/* Footer */
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 2rem 5%;
-  margin-top: 3rem;
-}
-
-.footer p {
-  margin: 0.3rem 0;
-
-
-}
-
-
-
-/* @media (max-width: 768px) {
-  .hero-section {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
-  }
-
-  .hero-image {
-    max-width: 80%;
-  }
-} */
 
 /* Contact Section */
 .contact-section {
@@ -212,4 +187,35 @@ body, html {
 
 .contact-form .submit-btn:hover {
   background-color: #e6b800;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 5%;
+  margin-top: 3rem;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .hero-image {
+    max-width: 80%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }

@@ -20,14 +20,25 @@ export default function Homepage() {
           <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/booking">Book a Table</Link></li>
-            {/* Smooth scroll links */}
             <li>
-              <a href="#hero" onClick={(e) => { e.preventDefault(); handleScroll("hero"); }}>
+              <a
+                href="#hero"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleScroll("hero");
+                }}
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={(e) => { e.preventDefault(); handleScroll("contact"); }}>
+              <a
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleScroll("contact");
+                }}
+              >
                 Contact
               </a>
             </li>
@@ -47,7 +58,7 @@ export default function Homepage() {
         </div>
 
         <img
-          src="/lemon.png"
+          src="https://via.placeholder.com/400x300.png?text=Little+Lemon"
           alt="Little Lemon Restaurant"
           className="hero-image"
         />
@@ -58,22 +69,22 @@ export default function Homepage() {
         <h2>Today's Specials</h2>
         <div className="specials-grid">
           <div className="special-card">
-            <img src="/greek_salad.jpeg" alt="Greek Salad" />
+            <img src="https://via.placeholder.com/220x160.png?text=Greek+Salad" alt="Greek Salad" />
             <h3>Greek Salad</h3>
             <p>A refreshing mix of tomatoes, cucumbers, onions, and feta cheese.</p>
           </div>
           <div className="special-card">
-            <img src="/lemon dessert.jpg" alt="Lemon Dessert" />
+            <img src="https://via.placeholder.com/220x160.png?text=Lemon+Dessert" alt="Lemon Dessert" />
             <h3>Lemon Dessert</h3>
             <p>A tangy and sweet lemon-flavored treat to end your meal.</p>
           </div>
           <div className="special-card">
-            <img src="/pasta.jpeg" alt="Pasta" />
+            <img src="https://via.placeholder.com/220x160.png?text=Pasta" alt="Pasta" />
             <h3>Pasta</h3>
             <p>Delicious pasta with rich tomato sauce and fresh herbs.</p>
           </div>
           <div className="special-card">
-            <img src="/lemon juice.jpeg" alt="Lemon Juice" />
+            <img src="https://via.placeholder.com/220x160.png?text=Lemon+Juice" alt="Lemon Juice" />
             <h3>Lemon Juice</h3>
             <p>A refreshing and tangy lemon juice to quench your thirst.</p>
           </div>
